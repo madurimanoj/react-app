@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import Header from './Header';
-import Main from './Main';
+import TodoApp from './Main';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-       <Main />
+       <TodoApp />
       </div>
     );
   }
